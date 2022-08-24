@@ -21,9 +21,7 @@ public class Account {
 		
 		Statement stmt = con.createStatement();
 		menu(stmt);
-				
-		
-
+		System.out.println("xyz");
 	}
 	public static void menu(Statement stmt) throws SQLException
 	{
